@@ -45,3 +45,9 @@ func TestMax(t *testing.T) {
 		}
 	}
 }
+
+//$ go test -coverprofile=coverage.out
+// ver resumen resumen en la terminal
+//$ go tool cover -func=coverage.out
+// o ver resumen en el navegador
+//$ go tool cover -html=coverage.out
